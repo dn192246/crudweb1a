@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiskorSites</title>
+    <!--Hoja de estilos Pico con CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+    <!--Se limita el ancho y se centra el bloque-->
+    <header class="container">
+        <nav>
+            <ul>
+                <li><b>RiskoorSites</b></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Integrantes</a></li>
+                <li><a href="#">Tareas</a></li>
+                <li><a href="#">Mi perfil</a></li>
+                <li><a href="#" role="button">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Integrantes del Equipo</h2>
+
+            <table id="tabla" class="overflow-auto striped">
+                <thead>
+                    <tr><!--'tr' de Table Row - Fila-->
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo Electronico</th>
+                        <th>Acciones</th> <!--Botones para eliminar y editar-->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Datos que ya estan en el archivo JS-->
+                </tbody>
+            </table>
+    </main>
+
+    <!--Enlace al archivo de JavaScript-->
+    <script src="JS/script.js"></script>
+</body>
+</html>
