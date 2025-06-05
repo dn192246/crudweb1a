@@ -40,3 +40,10 @@ function MostrarRegistros(datos){
 }
 
 ObtenerRegistros();
+
+
+
+//Proceso para agregar registros
+const modal = document.getElementById("mdAgregar"); //Cuadro de diálogo
+const btnAgregar = document.getElementById("btnAgregar"); //Botón "Abrir"
+const btnCerrar = document.getElementById("btnCerrarModal"); //Botón "Cerrar"
